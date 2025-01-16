@@ -1,0 +1,21 @@
+# Python files
+*.pyc
+__pycache__/
+
+# Virtual Environment
+venv/
+env/
+
+# Database files
+*.sqlite3
+
+# Django secret keys
+.env
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
