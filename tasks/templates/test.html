@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test template  variable</title>
+</head>
+<body>
+    <h1>Learning Django Template variable </h1>
+    <ul>
+        {% for fruit , colors in fruits.items %}
+            <li> Fruits name : {{fruit}} </li>
+            {% for color in colors %}
+                <ol> -{{color}} </ol>
+            {% endfor %}
+        {% endfor %}
+    </ul>
+</body>
+</html>
